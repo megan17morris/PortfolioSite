@@ -1,3 +1,13 @@
+:root {
+  --color-dark: #422C53;   /* Dark */
+  --color-black: #000000;  /* Black */
+  --color-cream: #EAD4C0;  /* Cream */
+  --color-blue: #347AE4;   /* Blue */
+  --color-pink: #F43AB0 ;  /* Pink */
+}
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
 .App {
   text-align: center;
 }
@@ -14,7 +24,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +44,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app container takes at least the full viewport height */
+  border: red 1px solid;
+}
+.body-container {
+  display: flex;
+  flex-grow: 1; /* This makes the body container expand to fill remaining vertical space */
+  width: 100%; /* Extend to full width of parent */
+  padding: 20px; /* Example padding */
+  border: blue 1px solid;
 }

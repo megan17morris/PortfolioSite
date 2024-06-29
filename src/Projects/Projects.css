@@ -1,0 +1,14 @@
+.green-box{
+    background-color: green;
+    max-width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    border: var(--color-pink) 3px dashed;
+    border-radius: 5px;
+
+}
+.green-box:hover{
+    background-color: var(--color-pink);
+    color: var(--color-dark);
+    border: var(--color-dark) 3px dashed;
+}

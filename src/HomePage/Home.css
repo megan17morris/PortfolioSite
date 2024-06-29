@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: red 1px solid;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: blue 1px solid;
+    ;
+}
+.column{
+    flex: 1; /* Allow columns to expand equally */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid peachpuff;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    padding: 20px; /* Optional: Add padding inside columns */
+    
+ 
+}
+/*H1 within the column-2-container should be very large, bold and pink and centered in the middle*/
+.column-2-container h1{
+
+    color:var(--color-pink);
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #f43ab0;
+    letter-spacing: -.5px; /* Reduce letter-spacing to make letters closer */
+    text-transform: uppercase;
+    font: 800 70px/30px 'League Spartan', -apple-system, Roboto, Helvetica, sans-serif;
+   
+    margin-bottom: 2%;
+    min-height: fit-content;
+    
+}
+.column-2-container p{
+    color: white;
+  
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 0 5%;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    width: fit-content;
+    margin: 3% auto;
+    margin-top: 7%;
+    padding: 20px 40px;  
+    border: var(--color-pink) 3px solid;
+    border-radius: 15px;
+}
+.contact-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3%;
+}
+.contact-icon{
+    display: flex;
+    margin-top: -0.5rem; /* Adjust margin as needed */
+    border: 1 px solid #fff;
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 1rem; /* Example margin between text and image */
+    color: #fff; /* Example color */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg); 
+
+}
+
+/* CSS Cascading Style Sheets */
