@@ -58,3 +58,12 @@
   padding: 20px; /* Example padding */
   border: blue 1px solid;
 }
+.row{
+  flex-direction: row;
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  .row{
+      flex-direction: column;
+  }}

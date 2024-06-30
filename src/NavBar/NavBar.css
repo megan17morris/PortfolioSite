@@ -4,10 +4,7 @@
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--color-dark);
-    /*border-bottom: 1px solid var(--color-cream);*/
-  
-  
-    /*border: 1px solid var(--color-cream);*/
+
 }
 
 
@@ -78,8 +75,6 @@
 .linkedin-link:hover {
     background-position: -100% 0; /* Shift gradient to reveal from left to right */
     color: white;
-    text-decoration: none;
-   
 }
 
 .linkedin-logo {
@@ -118,7 +113,7 @@
         left: 0;
         width: 100%;
         background-color: var(--color-dark);
-        /*border-top: 1px solid var(--color-cream);*/
+
         /*create a shadow effect on top and bottom*/
         box-shadow: 0px 2px 8px 5px rgba(0, 0, 0, 0.3);
       

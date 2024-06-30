@@ -1,0 +1,164 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.column {
+    flex: 1; /* Allow columns to expand equally */
+    display: flex;
+    flex-direction: column;
+    
+    color: aliceblue;
+    align-items: center;
+    justify-content: flex-start; /* Center content vertically */
+    padding: 20px; /* Optional: Add padding inside columns */
+}
+.col-2{
+    flex:1.25;
+}
+
+.column h1 {
+    color: var(--color-pink);
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #f43ab0;
+    letter-spacing: -0.5px; /* Reduce letter-spacing to make letters closer */
+    text-transform: uppercase;
+    font: 900 90px/30px 'League Spartan', -apple-system, Roboto, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    min-height: fit-content;
+}
+
+.column-2-container p {
+    color: white;
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+    margin: 0 5%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 2% auto;
+    margin-top: 2%;
+    padding: 20px 40px;
+    border: var(--color-pink) 3px solid;
+    border-radius: 15px;
+}
+
+.contact-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 3%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact-icon-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contact-icon {
+    display: flex;
+    margin: 4px;
+    width: 60px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg);
+}
+
+#git-icon {
+    filter: none;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 3%;
+    border-radius: 20px;
+    padding: 0px;
+    width: 70%;
+    overflow: hidden;
+}
+
+.profile-image {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Make the image fill the height of the container */
+    width: 100%; /* Make the image fill the width of the container */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+    object-position: 0% -50%; /* Center the image within the container */
+}
+
+.image-container-name {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: fit-content;
+    --font-size: 7vw; /* Default font size */
+}
+
+#name {
+    display: flex;
+    justify-self: flex-start;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: -4%;
+    font: 900 var(--font-size) / 30px 'League Spartan', -apple-system, Roboto, Helvetica, sans-serif;
+    rotate: -7deg;
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.text-description p {
+    margin: 0;
+    margin-top: 2%;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.2rem;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+}
+
+/* media query for mobile devices */
+@media (max-width: 850px) {
+    
+    .text-description{
+        align-items: center;
+        
+    }
+    .image-container-name{
+        align-items: center;
+    }
+    #name{
+        rotate: 0deg;
+    }
+}
