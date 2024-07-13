@@ -20,9 +20,9 @@ const NavBar = () => {
             <div className="navbar-brand">MEGAN <br />MORRIS</div>
             <div className={`navbar-links ${showMenu ? 'show' : ''}`}>
                 <NavLink exact to={homeLink} className="navbar-link">About</NavLink>
-                <NavLink to={projectLink} className="navbar-link">Portfolio</ NavLink>
-                <NavLink to={homeLink} className="navbar-link">Writing</NavLink>
-                <a href="https://www.linkedin.com" className="navbar-link linkedin-link">
+               {/* <NavLink to={projectLink} className="navbar-link">Portfolio</ NavLink>*}
+                {/* <NavLink to={homeLink} className="navbar-link">Writing</NavLink> */}
+                <a href="https://www.linkedin.com/in/megan-morris-7aa4711a3/" className="navbar-link linkedin-link">
                     Let's Connect
                     <img src={linkedinLogo} alt="linkedin logo" className="linkedin-logo" />
                 </a>

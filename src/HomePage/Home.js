@@ -12,8 +12,9 @@ const Home = () => {
   return (
     <div>
     < Introduction />
- 
-    {<Skills />}
+    <Skills />
+
+    
     </div>
    
 

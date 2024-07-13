@@ -24,6 +24,15 @@
 .col-2{
     flex:1.25;
 }
+.text-container {
+    margin: 8% auto;
+    font-size: 1.5vw;
+    text-align: justify;
+    
+}
+
+
+/* Other styles remain the same */
 
 .column h1 {
     color: var(--color-pink);
@@ -35,6 +44,7 @@
     font: 900 90px/30px 'League Spartan', -apple-system, Roboto, Helvetica, sans-serif;
     margin-bottom: 2%;
     min-height: fit-content;
+    margin-block-start: .2em;
 }
 
 .column-2-container p {
@@ -42,9 +52,10 @@
     text-align: center;
     font-family: 'Martel Sans', sans-serif;
     font-weight: lighter;
-    font-size: xx-large;
+
     margin: 0 5%;
 }
+
 
 .button-container {
     display: flex;
@@ -109,13 +120,15 @@
 }
 
 .image-container-name {
-    margin-top: 2%;
+    --font-size: 90px; /* Default font size */
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     min-height: fit-content;
-    --font-size: 7vw; /* Default font size */
+    margin-bottom: 0;
+    display: flex;
 }
 
 #name {
@@ -129,36 +142,73 @@
     rotate: -7deg;
 }
 
+
 .text-description {
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
-    justify-content: flex-start;
+    justify-items: flex-start;
+    margin-left: 0;
+    margin-top: 2%;
+    padding-left: 0;
+  
+
 }
 
 .text-description p {
+    display: flex;
     margin: 0;
-    margin-top: 2%;
+    margin-top: 1%;
     color: white;
     font-weight: lighter;
-    font-size: 2.2rem;
+    font-size: 2.5vw;
     font-family: 'Roboto Serif', serif;
     font-weight: bolder;
-}
+    width: 100%;
 
+}
+@media (max-width:1050px){
+    .text-container{
+        font-size: 1.75vw;
+    }
+}
 /* media query for mobile devices */
 @media (max-width: 850px) {
     
     .text-description{
         align-items: center;
-        
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5vw;
+
+    }
+    .text-description p{
+        text-align: center;
+        font-size: 4.5vw;
+        display: block;
+
     }
     .image-container-name{
         align-items: center;
     }
     #name{
-        rotate: 0deg;
+        rotate: .005deg;
     }
+    .column h1 {
+       margin-block-start: .67em;
+    }
+    .text-container{
+        font-size: 3.5vw;
+    
+    }
+   
+}
+sup {
+    font-weight: 1000;    
+    color: var(--color-pink);
+    vertical-align: super;
+    margin-left: 0;
 }

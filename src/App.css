@@ -49,21 +49,22 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensure the app container takes at least the full viewport height */
-  border: red 1px solid;
 }
 .body-container {
   display: flex;
   flex-grow: 1; /* This makes the body container expand to fill remaining vertical space */
   width: 100%; /* Extend to full width of parent */
-  padding: 20px; /* Example padding */
-  border: blue 1px solid;
+
+
 }
 .row{
   flex-direction: row;
   display: flex;
+  max-width: 100vw;
 }
 
 @media (max-width: 850px) {
   .row{
       flex-direction: column;
+      
   }}

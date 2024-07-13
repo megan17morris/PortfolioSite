@@ -1,1 +1,21 @@
 <a href="https://www.flaticon.com/free-icons/document" title="document icons">Document icons created by Freepik - Flaticon</a>
+<a target="_blank" href="https://icons8.com/icon/23027/html-5">Html 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/10452/css-filetype">CSS Filetype</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/39854/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/122637/react">react js</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/ldQqWiIRv9bc/bootstrap">Bootstrap</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/40253/jquery">JQuery</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/54087/nodejs">Nodejs</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a href="https://www.flaticon.com/free-icons/sql" title="sql icons">Sql icons created by juicy_fish - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
+<a target="_blank" href="https://icons8.com/icon/55199/c%2B%2B">C++</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/teaching" title="teaching icons">Teaching icons created by Prosymbols Premium - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/team-building" title="team building icons">Team building icons created by Abdul-Aziz - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/problem-solving" title="problem solving icons">Problem solving icons created by Canticons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/listen" title="listen icons">Listen icons created by Freepik - Flaticon</a>
+Communication by andika from <a href="https://thenounproject.com/browse/icons/term/communication/" target="_blank" title="Communication Icons">Noun Project</a> (CC BY 3.0)
+
+team building by Side Project from <a href="https://thenounproject.com/browse/icons/term/team-building/" target="_blank" title="team building Icons">Noun Project</a> (CC BY 3.0)
+team management by Bahrul Ulum from <a href="https://thenounproject.com/browse/icons/term/team-management/" target="_blank" title="team management Icons">Noun Project</a> (CC BY 3.0)
