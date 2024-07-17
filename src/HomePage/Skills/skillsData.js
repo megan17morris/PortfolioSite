@@ -23,11 +23,12 @@ import teamBuilding from './skillsIcons/teamBuilding.png';
 import sql from './skillsIcons/sql-server.png';
 import java from './skillsIcons/java.png';
 import openai from './skillsIcons/openai.svg';
-import mongoDB from './skillsIcons/mongoDB.png';
+import mongoDB from './skillsIcons/MongoDB_3.png';
 import scikitLearnIcon from './skillsIcons/scikit-learn.svg';
-
+import presentation from './skillsIcons/presentation.png';
 import javasScript from './skillsIcons/js.png';
 import css from './skillsIcons/cssFile.png';
+import nodejs from './skillsIcons/nodejs.png';
 
 
 const skillsData = [
@@ -45,7 +46,7 @@ const skillsData = [
     { 
         type: 'Back End', 
         list: [
-            { name: 'Node.js', icon: linkedin },
+            { name: 'Node.js', icon: nodejs },
        
             { name: 'MongoDB', icon: mongoDB },
             { name: 'SQL', icon: sql },
@@ -74,7 +75,7 @@ const skillsData = [
         type: 'Soft Skills', 
         list: [
             { name: 'Project Management', icon: project_management },
-            { name: 'Presentation', icon: linkedin },
+            { name: 'Presentation', icon: presentation },
             { name: 'Leadership', icon: leadership },
             { name: 'Problem Solving', icon: problem_solving },
             { name: 'Active Listening', icon: activeListening },
