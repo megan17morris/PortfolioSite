@@ -1,17 +1,77 @@
-h2 {
-  font-size: 60px;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
+/* Ensure slick-slide fills its parent slick-list */
+.slick-list,
+.slick-track,
+.slick-slide {
+  height: 100%;
 }
-h3 {
-  font-size: 40px;
-  background-color: blue;
-  display: flex;
+
+/* Ensure each slide has the same height */
+.slick-slide {
+  position: relative;
+  display: flex !important;
   justify-content: center;
-  border-radius: 5px;
-  padding: 150px 0;
-  margin: 0px auto;
-  font-family: sans-serif;
-  margin: 0 50px;
+  align-items: center;
 }
+
+/* Additional styles for slider-container */
+.slider-container {
+  width: 70%;
+  margin: 30px auto; /* Centers the slider */
+  padding: 20px 0px;
+  padding-bottom: 30px;
+  position: relative;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.item-container {
+  padding-top: 30px;
+  display: flex;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+/* Custom arrow styles */
+.custom-arrow {
+  margin-top: 10px;
+  position: absolute;
+  top: 95%;
+  transform: translateY(-50%);
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: var(--color-pink);
+  opacity: 0.9;
+}
+
+.custom-arrow:hover {
+  opacity: 1;
+}
+
+.custom-arrow:active {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.custom-arrow.prev {
+  margin-left: 20px;
+ 
+}
+
+.custom-arrow.next {
+  right: 0;
+  margin-right: 20px;
+}
+

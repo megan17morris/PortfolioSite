@@ -187,3 +187,23 @@
 .skill-name div {
     display: block;
 }
+
+.carousel-container{
+  max-width: 100vw;
+  flex: auto;
+  flex-direction: row;
+}
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+.skill-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust spacing between items in a column */
+}
+
+.skill-container {
+  display: flex;
+  align-items: center;
+}
+

@@ -87,4 +87,14 @@ const skillsData = [
     }
 ];
 
-export default skillsData;
+const skillsDataSample = [
+    { title: "Skill 1" },
+    { title: "Skill 2" },
+    { title: "Skill 3" },
+    // Add more objects as needed
+  ];
+  
+export { skillsDataSample };
+
+
+export default skillsData; 
