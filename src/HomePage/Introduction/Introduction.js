@@ -60,8 +60,8 @@ const Introduction = () => {
                         </div>
                     
                     <div className="text-description">
-                        <p>Student, Teacher, and Leader</p>
-                        <p>Full Stack Software Development</p>
+                        <div>Student, Teacher, and Leader</div>
+                        <div>Full Stack Software Development</div>
                     </div>
                     </div>
                 </div>

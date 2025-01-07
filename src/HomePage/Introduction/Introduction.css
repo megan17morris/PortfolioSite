@@ -17,6 +17,7 @@
     flex-direction: column;
     
     color: aliceblue;
+    
     align-items: center;
     justify-content: flex-start; /* Center content vertically */
     padding: 20px; /* Optional: Add padding inside columns */
@@ -125,7 +126,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     min-height: fit-content;
     margin-bottom: 0;
     display: flex;
@@ -135,10 +136,10 @@
     display: flex;
     justify-self: flex-start;
     margin: 0;
-    margin-left: 1%;
+    margin-left: 1%; 
     margin-top: 2%;
     margin-bottom: -4%;
-    font: 900 var(--font-size) / 30px 'League Spartan', -apple-system, Roboto, Helvetica, sans-serif;
+    font: 900 clamp(4em, var(--font-size), 10em)/ 30px 'League Spartan', -apple-system, Roboto, Helvetica, sans-serif;
     rotate: -7deg;
 }
 
@@ -147,10 +148,10 @@
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     overflow: hidden;
-    justify-items: flex-start;
+    justify-items: center;
     margin-left: 0;
     margin-top: 2%;
     padding-left: 0;
@@ -158,7 +159,9 @@
 
 }
 
-.text-description p {
+.text-description > div {
+    width: 100%; /* Make the div elements the same width as the parent */
+    text-align: center;
     display: flex;
     margin: 0;
     margin-top: 1%;
@@ -167,7 +170,8 @@
     font-size: 2.5vw;
     font-family: 'Roboto Serif', serif;
     font-weight: bolder;
-    width: 100%;
+    justify-content: center;
+  
 
 }
 @media (max-width:1050px){
@@ -185,7 +189,7 @@
         margin-top: 5vw;
 
     }
-    .text-description p{
+    .text-description div{
         text-align: center;
         font-size: 4.5vw;
         display: block;
