@@ -4,6 +4,7 @@
   --color-cream: #EAD4C0;  /* Cream */
   --color-blue: #347AE4;   /* Blue */
   --color-pink: #F43AB0 ;  /* Pink */
+  --color-light-brown: #E7D6C7; /* Light Brown */
 }
 * {
   box-sizing: border-box; /* Include padding and border in element's total width and height */

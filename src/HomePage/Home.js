@@ -5,6 +5,7 @@ import './Home.css';
 
 import Introduction from './Introduction/Introduction';
 import Skills from './Skills/Skills';
+import Experiences from './Experiences/Experiences';
 
 const Home = () => {
  
@@ -12,7 +13,8 @@ const Home = () => {
   return (
     <div>
     < Introduction />
-    <Skills />
+    < Experiences />
+    
 
     
     </div>
