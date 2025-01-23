@@ -2,6 +2,7 @@
   --color-dark: #422C53;   /* Dark */
   --color-black: #000000;  /* Black */
   --color-cream: #EAD4C0;  /* Cream */
+  --color-cream-background: rgb(235, 225, 216); /* Cream with 80% opacity */
   --color-blue: #347AE4;   /* Blue */
   --color-pink: #F43AB0 ;  /* Pink */
   --color-light-brown: #E7D6C7; /* Light Brown */

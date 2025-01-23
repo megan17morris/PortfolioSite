@@ -50,7 +50,7 @@ const Introduction = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div className="container intro-container">
             <div className="row">
                 <div className="column col-1">
                     <div className='image-container-name' ref={containerRef}>
