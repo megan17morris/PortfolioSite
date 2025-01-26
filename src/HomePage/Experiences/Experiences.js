@@ -13,7 +13,7 @@ const Experiences = () => {
                 <div className = 'experiences-title exp-col column'>
                     <h3 className='experiences-title-text'>WHO AM I?</h3>
                     <div className='experiences-title-bar'></div>
-                    <div className='exp-link'>Learn More</div>
+                    <div className='exp-link'><a href=''>Learn More</a></div>
                 </div>
                 <div className = 'experiences-content exp-col column'>
                     <div className = 'experiences-description'>
@@ -27,7 +27,7 @@ const Experiences = () => {
                 <div className = 'experiences-title exp-col column'>
                     <h3 className='experiences-title-text'>Experience</h3>
                     <div className='experiences-title-bar'></div>
-                    <div className='exp-link'>View Portfolio</div>
+                    <div className='exp-link'><a href=''>View Portfolio </a></div>
                 </div>
                 <div className = 'experiences-content exp-col column'>
                     <div className = 'experiences-description'>

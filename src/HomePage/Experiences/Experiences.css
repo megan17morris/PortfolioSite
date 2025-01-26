@@ -15,7 +15,7 @@
      /* Align items vertically, optional */
 }
 .experiences-title {
-    flex: 0 0 17em; 
+    flex: 0 0 18em; 
     
 }
 .experiences-content {
@@ -37,14 +37,12 @@
     justify-content: flex-start ;
 
 }
-.experiences-section:first-child{
-    border-bottom: none;
-}
+
 .experiences-section{
     padding-top: 2%;
     padding-bottom: 2%;
-    border-top: black 2px solid;
-    border-bottom: black 2px solid;
+    border-top: black 1.5px solid;
+   
 }
 
 .experiences-title-text{
@@ -68,16 +66,24 @@
 }
 .exp-link{
     margin-top: .5rem;
-    color:black;
     font-family: 'Cabin';
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
+.exp-link > a {
+    text-decoration: none;
+    color: black;
+}
+.exp-link:hover{
+    color: var(--color-dark);
+    /*Add an extra shadow to the text */
+    text-shadow: 0 0 1px #f43ab0;
+}
 .experiences-description{
     font-family:'Cabin';
     color:black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
 }
 
