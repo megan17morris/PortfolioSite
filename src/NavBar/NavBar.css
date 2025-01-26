@@ -23,9 +23,7 @@
 }
 
 .navbar-links {
-
     margin-left: auto;
-   
     display: flex;
 
     gap: 1rem;

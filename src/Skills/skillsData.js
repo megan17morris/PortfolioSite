@@ -47,7 +47,6 @@ const skillsData = [
         type: 'Back End', 
         list: [
             { name: 'Node.js', icon: nodejs },
-       
             { name: 'MongoDB', icon: mongoDB },
             { name: 'SQL', icon: sql },
             { name: 'Python', icon: pythonIcon },

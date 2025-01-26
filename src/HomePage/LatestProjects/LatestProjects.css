@@ -1,0 +1,82 @@
+.latest-projects-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.title-column{
+    flex:1;
+}
+.project-column{
+    flex: 3;
+    border: red 1px solid;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 3rem;
+
+}
+.section-title{
+    color: var(--color-pink);
+    text-align: left;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #f43ab0;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3.8rem; 
+    line-height: 1.1;
+}
+.portfolio-link{
+    font-family:'Martel Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-cream);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.view-portfolio-row{
+   justify-content: start;
+   align-items: center;
+}
+.arrow-container{
+    display: flex;
+    flex-direction: row;
+    height: 1.25rem;
+    margin-left: .2rem;
+    margin-top: -.3rem;
+}
+.right-arrow{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    transition: margin-left 0.3s ease;
+}
+.view-portfolio-row:hover .right-arrow path {
+    stroke-width: 1.75rem;
+    stroke: var(--color-pink);
+    fill: var(--color-pink);    
+}
+.view-portfolio-row:hover .right-arrow{
+    margin-left: .25rem;
+}
+.view-portfolio-row:hover .portfolio-link {
+    color: var(--color-pink);
+}
+
+.line{
+    height:.25rem;
+    width: 100%;
+    background-color: var(--color-pink);
+       /* Gradient background for animation */
+}
+
+
+.project-image{
+    width: 10rem;
+    height: 10rem;
+
+}

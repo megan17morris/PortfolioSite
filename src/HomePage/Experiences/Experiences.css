@@ -63,22 +63,35 @@
     margin-left: .5%;
     background-color: var(--color-pink);
     margin-top: .25rem; /* Color of the bar */
+    transition: width 0.3s ease-in-out; /* Smooth animation */
 }
+
+
+
+
 .exp-link{
     margin-top: .5rem;
     font-family: 'Cabin';
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    
 }
 .exp-link > a {
     text-decoration: none;
     color: black;
+    transition: color .3s ease;
 }
-.exp-link:hover{
-    color: var(--color-dark);
+
+.experiences-highlight:hover .experiences-title-bar{
+    width: 90%;
+}
+.experiences-highlight:hover .exp-link > a{
+    color: var(--color-pink);
     /*Add an extra shadow to the text */
-    text-shadow: 0 0 1px #f43ab0;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #f43ab0;
+    
 }
 .experiences-description{
     font-family:'Cabin';

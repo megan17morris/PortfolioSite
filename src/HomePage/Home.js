@@ -4,8 +4,9 @@ import './Home.css';
 
 
 import Introduction from './Introduction/Introduction';
-import Skills from './Skills/Skills';
+
 import Experiences from './Experiences/Experiences';
+import LatestProjects from './LatestProjects/LatestProjects';
 
 const Home = () => {
  
@@ -14,7 +15,7 @@ const Home = () => {
     <div>
     < Introduction />
     < Experiences />
-    
+    <LatestProjects />
 
     
     </div>
