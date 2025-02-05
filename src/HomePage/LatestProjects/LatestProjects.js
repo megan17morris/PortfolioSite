@@ -3,7 +3,11 @@ import '../../App.css';
 import './LatestProjects.css';
 //import rightArrow from '../../assets/right-arrow.svg';
 import { ReactComponent as RightArrow } from '../../assets/right-arrow.svg';
+import '../../Projects/projectData';
 import profile from '../../assets/profile.jpeg';
+import projectData from '../../Projects/projectData';
+import SkillBox from '../../Skills/skillBox';
+
 
 
 const LatestProjects = () => {
@@ -30,15 +34,54 @@ const LatestProjects = () => {
                     </div>
                 </div>
                 <div className='column col-2 project-column'>
+                    {projectData.map((project, index) => (
+                        <div className='row project-container'>
+                        <div className='column col-1 image-col'>
+                            <div className='project-image-container'>
+                                <img src={profile} alt={project.alt} className='project-image' />
+                            </div>
+                            </div>
+                            <div className='column col-2 project-info-col'>
+                                
+                            <h2 className='project-name'>{project.title}</h2>
+                            <div className ="project-description">{project.textPreview}</div>
+                            <div className="built-with-container row">
+                                <div className = "built-with col-1">Built With:</div>
+                                <div className = "tech-list-row row col-2">
+                                {project.skillsUsed.map((skill) => (
+                                    <SkillBox key={skill} skillName={skill} />
+                                    ))}
+
+                                 
+                                   
+                                  
+                       
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    ))}
                     <div className='row project-container'>
-                        <div className='column col-1'>
+                        <div className='column col-1 image-col'>
                             <div className='project-image-container'>
                                 <img src={profile} alt="Project 1" className='project-image' />
                             </div>
                             </div>
-                            <div className='column col-2'>
+                            <div className='column col-2 project-info-col'>
                                 
-                            <div className='project-info'>Probability Website</div>
+                            <h2 className='project-name'>Probability Website</h2>
+                            <div className ="project-description">A site to teach young students about probability
+                                with various simulations.</div>
+                            <div className="built-with-container row">
+                                <div className = "built-with col-1">Built With:</div>
+                                <div className = "tech-list-row row col-2">
+                                
+                                    <div className = "skill">React</div>
+                                    <div className = "skill">React</div>
+                                  
+                       
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
