@@ -19,7 +19,7 @@ const LatestProjects = () => {
                 <div className='column col-1 title-column'>
                     <div className ='title-container'>
                         <div className='section-title'>Latest Projects</div>
-                        <div className='row view-portfolio-row'>
+                        <div className='consistent-row view-portfolio-row'>
                            
                                 <a className='portfolio-link' href="/Projects">View Portfolio</a>
                          
@@ -35,7 +35,7 @@ const LatestProjects = () => {
                 </div>
                 <div className='column col-2 project-column'>
                     {projectData.map((project, index) => (
-                        <div className='row project-container'>
+                        <div className='consistent-row project-container'>
                         <div className='column col-1 image-col'>
                             <div className='project-image-container'>
                                 <img src={profile} alt={project.alt} className='project-image' />
@@ -47,7 +47,7 @@ const LatestProjects = () => {
                             <div className ="project-description">{project.textPreview}</div>
                             <div className="built-with-container row">
                                 <div className = "built-with col-1">Built With:</div>
-                                <div className = "tech-list-row row col-2">
+                                <div className = "tech-list-row consistent-row col-2">
                                 {project.skillsUsed.map((skill) => (
                                     <SkillBox key={skill} skillName={skill} />
                                     ))}
@@ -58,36 +58,15 @@ const LatestProjects = () => {
                        
                                 </div>
                             </div>
+
+                            
                             </div>
                         </div>
                     ))}
-                    <div className='row project-container'>
-                        <div className='column col-1 image-col'>
-                            <div className='project-image-container'>
-                                <img src={profile} alt="Project 1" className='project-image' />
-                            </div>
-                            </div>
-                            <div className='column col-2 project-info-col'>
-                                
-                            <h2 className='project-name'>Probability Website</h2>
-                            <div className ="project-description">A site to teach young students about probability
-                                with various simulations.</div>
-                            <div className="built-with-container row">
-                                <div className = "built-with col-1">Built With:</div>
-                                <div className = "tech-list-row row col-2">
-                                
-                                    <div className = "skill">React</div>
-                                    <div className = "skill">React</div>
-                                  
-                       
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                        
                     
+                    </div>
+                    </div>
+                                
                 
            </div>
      

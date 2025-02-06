@@ -9,7 +9,7 @@ const projectData = [
         textPreview: 'A site that teaches young students about'+
         ' probability with various interactive games and' +
         ' activities.',
-        skillsUsed: ['React', 'Node.js', 'MongoDB'],
+        skillsUsed: ['React', 'Node.js', 'Project Management'],
         image: profile,
         alt: 'Project 1',
         description: probabilityWebsite,

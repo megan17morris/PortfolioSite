@@ -30,7 +30,10 @@ const SkillBox = ({ skillName }) => {
         <div className='skill'>
             <img src={skill.icon} alt={skill.name} className='skill-icon' />
         </div>
-        {formatSkillName(skill.name)}
+        <div className='skill-name'>
+       <div>{skill.name}</div> 
+       <br></br>
+        </div>
     </div>
   );
 };
